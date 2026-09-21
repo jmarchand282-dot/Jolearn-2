@@ -1,0 +1,22 @@
+{
+  "name": "JoLearn — Cours de langues",
+  "short_name": "JoLearn",
+  "description": "6 niveaux, 25 leçons par niveau, quiz et progression.",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f7fb",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

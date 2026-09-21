@@ -1,0 +1,19 @@
+<!doctype html><html lang="fr"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#4f46e5"><link rel="manifest" href="manifest.json"><link rel="icon" href="icon-192.png">
+<title>JoLearn</title><link rel="stylesheet" href="style.css"></head><body>
+<div id="splash"><div class="logo">Jo</div><h1>JoLearn</h1><p>Apprends. Pratique. Progresse.</p></div>
+<section id="onboard" class="hidden"><b class="brand">JoLearn</b><div class="prog"><i id="op"></i></div><div id="oc"></div><button id="onext" class="primary">Continuer</button></section>
+<div id="app" class="hidden"><header><div><b id="hello"></b><small id="goal"></small></div><button class="avatar" data-p="profile">J</button></header>
+<main id="home" class="page"><div class="hero"><div><small>TON PARCOURS</small><h2 id="hl"></h2><p id="hp"></p></div><strong id="hxp"></strong></div>
+<div class="stats"><div>🔥 <b id="streak">0</b><small>jours</small></div><div>🪙 <b id="coins">0</b><small>pièces</small></div><div>❤️ <b id="lives">5</b><small>vies</small></div></div>
+<div class="title"><h3>Continuer</h3><button id="see">Parcours</button></div><div id="homeLessons"></div>
+<div class="daily">🎯 Objectif quotidien <b id="daily">0/50 XP</b><div class="bar"><i id="db"></i></div></div></main>
+<main id="learn" class="page hidden"><div class="pt"><span>📚</span><div><h2>Mes cours</h2><p>6 niveaux · 25 leçons par niveau</p></div></div><div id="levels"></div></main>
+<main id="quiz" class="page hidden"><div class="pt"><span>🧠</span><div><h2>Quiz</h2><p>Révise tes connaissances</p></div></div><div class="card"><h3 id="qq"></h3><div id="qo"></div><p id="qf"></p><button id="qn" class="primary hidden">Question suivante</button></div></main>
+<main id="bot" class="page hidden"><div class="pt"><span>🤖</span><div><h2>JoBot</h2><p>Partenaire de conversation</p></div></div><div id="chat"></div><div class="input"><input id="ci" placeholder="Écris en anglais…"><button id="send">➤</button></div></main>
+<main id="profile" class="page hidden"><div class="profile card"><div class="big">J</div><h2 id="pn"></h2><p id="pl"></p></div><div class="stats"><div><b id="px">0</b><small>XP</small></div><div><b id="pc">0</b><small>Pièces</small></div><div><b id="pm">0</b><small>Leçons</small></div></div><div class="card settings"><button id="dark">🌙 Mode sombre <span>›</span></button><button id="reset">♻️ Réinitialiser <span>›</span></button></div><div class="premium"><b>👑 PREMIUM<br><span>B2 · C1 · C2</span></b><button id="wa">WhatsApp</button></div></main>
+<nav><button data-p="home">🏠<small>Accueil</small></button><button data-p="learn">📚<small>Apprendre</small></button><button data-p="quiz">🧠<small>Quiz</small></button><button data-p="bot">🤖<small>JoBot</small></button><button data-p="profile">👤<small>Profil</small></button></nav></div>
+<section id="course" class="overlay hidden"><header><button id="backCourse">‹</button><div><b id="ct"></b><small id="cs"></small></div></header><div id="lessons"></div></section>
+<section id="lesson" class="overlay hidden"><header><button id="backLesson">‹</button><div><b id="lt"></b><small id="ls"></small></div><strong>+10 XP</strong></header><div class="lessonBody"><section class="card"><h3>📚 Vocabulaire</h3><div id="vocab" class="words"></div></section><section class="card"><h3>💬 Phrases</h3><div id="phrases"></div></section><section class="card"><h3>🧩 Expression utile</h3><div id="expr"></div></section><section class="card"><h3>📖 Grammaire</h3><p id="gram"></p></section><section class="card"><h3>🧠 Quiz de la leçon</h3><p id="lq"></p><div id="lo"></div><p id="lf"></p><button id="finish" class="primary hidden">Terminer la leçon · +10 XP</button></section></div></section>
+<script src="app.js"></script></body></html>

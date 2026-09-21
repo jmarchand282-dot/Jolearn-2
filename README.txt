@@ -1,0 +1,1 @@
+JoLearn v2 : 6 niveaux × 25 leçons = 150 leçons. Remplace les anciens fichiers par ceux-ci. Configure WA_NUMBER dans app.js.
